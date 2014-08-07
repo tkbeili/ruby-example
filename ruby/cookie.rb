@@ -27,15 +27,15 @@ class Cookie
     @flour_amount = amount
   end
 
+
   attr_accessor :sugar_amount
   # same as:
   # attr_reader :sugar_amount
   # attr_writer :sugar_amount
 
-
   def eat
     bake
-    puts "Eating cookie with amount #{amount}"
+    puts "Eating cookie with amount"
   end
 
   def info

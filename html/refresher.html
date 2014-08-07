@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodeCore HTML Refresher Page</title>
+  <meta name="description" content="This is a page to refersh knowledge of HMTL">
+  <meta name="keywords" content="html, codecore, refresher, css">
+
+  <style>
+    /* Styles p elements with class red-text */
+    p.red-text {
+      color: red;
+      font-size: 20px;
+      text-decoration: underline;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+
+    p {
+      font-family: fantasy;
+    }
+
+     /* Styles any element with class red-text */
+    .red-text {
+
+    }
+
+    .yellow-background {
+      background-color: yellow;
+      width: 100%;
+      min-height: 50px;
+      color: green;
+    }
+
+    .red-label p {
+      font-family: sans-serif;
+    }
+
+    p .red-label {
+      font-size: 35px; 
+
+    }
+
+    p.red-label {
+      color: red;
+    }
+
+    p.red-label b, .special-red {
+
+    }
+
+    h2#special-h2 {
+      color: purple;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<h1>CodeCore Bootcamp August Cohort HTML Refersher</h1>
+
+<h2 id="special-h2">P and BR tags</h2>
+
+<p class="red-text">Hello &nbsp;&nbsp;&nbsp;&nbsp; &copy;CodeCore<br>Hello There</p>
+
+<h2>Lists in HTML</h2>
+
+<h3>Ordered Lists</h3>
+
+
+<div class="yellow-background">
+  <p>Hello From Yellow Div 
+    <b class="red-label">Div Inside a P</b>
+  </p>
+  <p class="red-label">My Label</p>
+</div>
+
+<p>List of coffeeshops around CodeCore</p>
+<ol>
+  <li>Starbucks
+    <ol>
+      <li>Abbott &amp; Keefer</li>
+      <li>Main Street</li>
+    </ol>
+  </li>
+  <li>Blenz</li>
+  <li>Tim Hortons</li>
+</ol>
+
+<h3>Unordered Lists</h3>
+
+Restaurants in the area
+<ul>
+  <li>Kent's Kitchen</li>
+  <li>Food Court</li>
+</ul>
+<hr>
+
+<h2>Tables</h2>
+
+<h3>Students</h3>
+<table border="4" width="100%">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John Smith</td>
+      <td>john@smith.com</td>
+      <td>777.777.7777</td>
+    </tr>
+    <tr>
+      <td>Tim Smith</td>
+      <td>tim@smith.com</td>
+      <td>555.555.5555</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Chris Smith</td>
+      <td>chris@smith.com</td>
+      <td>444.444.4444</td>
+    </tr>
+    <tr>
+      <td>chris@gmail.com</td>
+      <td>3333.3333.3333</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Thanks for reading</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h2>Links</h2>
+
+<a href="http://www.google.com" target="_blank">Google</a>
+<a href="page2.html" target="_blank">Page 2</a>
+<a href="#">Go To Top</a>
+
+<h2>Images</h2>
+
+<img src="http://codecore-website-data.s3.amazonaws.com/breakthecode/img/tas/drew.jpg">
+
+
+</body>
+</html>
