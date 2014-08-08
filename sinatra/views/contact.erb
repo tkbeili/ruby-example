@@ -1,0 +1,44 @@
+<h1>Contact Us</h1>
+
+
+<form action="/contact" method="post">
+
+<label for="your_name">Your Name</label>
+<input type="text" name="your_name" id="your_name">
+<br>
+<label for="email">Your Email</label>
+<input type="email" name="email" id="email">
+<br>
+<input type="checkbox" name="urgent" id="urgent">
+<label for="urgent">Urgent Request?</label>
+<br>
+
+<br>
+<input type="radio" name="department" id="sales" value="sales">
+<label id="sales">Sales</label>
+
+<input type="radio" name="department" id="marketing" value="marketing">
+<label id="marketing">Marketing</label>
+
+<input type="radio" name="department" id="technical" value="technical">
+<label id="technical">Technical</label>
+<br>
+
+<label for="category">Category</label>
+<select id="category" name="category">
+  <option value="art">Art</option>
+  <option value="sports">Sports</option>
+  <option value="humor">Humor</option>
+</select>
+
+<br>
+
+<label for="message">Message</label>
+<textarea name="message" id="message"></textarea>
+
+<br>
+
+<input type="submit" value="Contact us!">
+
+
+</form>
